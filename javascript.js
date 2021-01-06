@@ -5,14 +5,14 @@ var jsonText;
 
 
 var firebaseConfig = {
-	    apiKey: "AIzaSyCFeWhZ1bEhP83MXFpgSbtA3N7fAVBWPg8",
+	    apiKey: "Enter your api key",
 	    authDomain: "wiki-new-tab.firebaseapp.com",
 	    databaseURL: "https://wiki-new-tab.firebaseio.com",
 	    projectId: "wiki-new-tab",
 	    storageBucket: "wiki-new-tab.appspot.com",
-	    messagingSenderId: "390798717062",
-	    appId: "1:390798717062:web:b2dc0b3f2e26dbebc0e107",
-	    measurementId: "G-EV7V559H86"
+	    messagingSenderId: "---",
+	    appId: "Enter your api id",
+	    measurementId: "----"
 	  };
 	  // Initialize Firebase
 	  firebase.initializeApp(firebaseConfig);
