@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Wiki New Tab",
+  "version": "0.1",
+
+  "chrome_url_overrides": {
+  	"newtab" : "newpage.html"
+  },
+
+  "permissions":[
+  	"tabs"
+  ],
+
+  "background":{
+  	"scripts": ["javascript.js"],
+  	"persistant" : false
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dive in!</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">   
+</head>
+<body>
+
+	<img id="bg">
+
+	<div id="textc">
+		<div id="q">
+			<span id="aq">What do you want to read today?</span>
+		</div>
+
+		<div id ="wikipart">
+			<span class="reload" id="prev"><img class="icon" id="previous" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIuMDAyIDMyLjAwMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIuMDAyIDMyLjAwMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9InVuZG8iPg0KCQk8Zz4NCgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMzAxMDQ7IiBkPSJNMjguMTU3LDMuNzE5Yy00Ljk1Ny00Ljk1Ny0xMy42MDUtNC45NjEtMTguNTU5LDBMNC4wMDEsOS4zMlY0aC00djEyLjAwN2gxMnYtMy45Mkg2Ljk3OA0KCQkJCWw1LjQ1My01LjUzN2MzLjQ0NS0zLjQ0OSw5LjQ1My0zLjQ0OSwxMi44OTgsMC4wMDRjMS43MjMsMS43MjMsMi42NzIsNC4wMTIsMi42NzIsNi41MzRjMCwyLjM1Ny0wLjk0OSw0LjY0Ni0yLjY3Miw2LjM3Mw0KCQkJCWwtMy4wMTYsMy4wMTRsMi44MjgsMi44MjhsMy4wMTYtMy4wMDhjMi40NzctMi40ODYsMy44NDQtNS43ODMsMy44NDQtOS4yMDdDMzIuMDAxLDkuNDk2LDMwLjYzNCw2LjE5OSwyOC4xNTcsMy43MTl6Ii8+DQoJCQk8cG9seWdvbiBzdHlsZT0iZmlsbDojMDMwMTA0OyIgcG9pbnRzPSIxOC40NSwzMi4wMDIgMTUuNjIyLDI5LjE2NiAxOC40NSwyNi4zMzggMjEuMjc4LDI5LjE2NiAJCQkiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" /></span>
+			<span id="link">Open Wikipedia Page</span>
+			<span class="reload" ><img id = "rimg" class="icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzQxLjMzMyAzNDEuMzMzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNDEuMzMzIDM0MS4zMzM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMzQxLjIyNywxNDkuMzMzVjBsLTUwLjEzMyw1MC4xMzNDMjYwLjI2NywxOS4yLDIxNy43MDcsMCwxNzAuNTYsMEM3Ni4yNjcsMCwwLjEwNyw3Ni4zNzMsMC4xMDcsMTcwLjY2Nw0KCQkJczc2LjE2LDE3MC42NjcsMTcwLjQ1MywxNzAuNjY3Yzc5LjQ2NywwLDE0Ni4wMjctNTQuNCwxNjQuOTA3LTEyOGgtNDQuMzczYy0xNy42LDQ5LjcwNy02NC43NDcsODUuMzMzLTEyMC41MzMsODUuMzMzDQoJCQljLTcwLjcyLDAtMTI4LTU3LjI4LTEyOC0xMjhzNTcuMjgtMTI4LDEyOC0xMjhjMzUuMzA3LDAsNjYuOTg3LDE0LjcyLDkwLjEzMywzNy44NjdsLTY4LjgsNjguOEgzNDEuMjI3eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" /></span>
+
+			
+		</div>
+
+	</div>
+	
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+
+	<script type="text/javascript" src="javascript.js"></script> 
+</body>
+
+</html>

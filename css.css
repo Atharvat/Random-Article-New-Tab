@@ -1,0 +1,98 @@
+body, html, #bg {
+  height: 100%;
+}
+
+body{
+	margin: 0px;
+}
+
+#bg {
+
+	/*opacity: 0.92;*/
+
+	display:block;
+  	width:100%; height:100%;
+  	object-fit: cover;
+
+	/*background-color: rgba(100,100,100,0.6);*/
+    /*background-blend-mode: lighten;*/
+	/*opacity: 0.65;*/
+    /*position: relative;*/
+
+    /* Center and scale the image nicely */
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+#textc{
+	margin: auto;
+	position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#q{
+    font-size: 54px;
+    color: white;
+    font-family: Lobster, sans-serif;
+    display:block;
+    margin-bottom: 70px;
+}
+
+#aq{
+	padding: 13px;
+	text-shadow: 0.5px 1px 2px black;
+	/*background: rgba(0,0,0,0.2);
+	border-radius: 2px;*/
+
+}
+
+
+#wikipart{
+	background-color: rgba(255,255,255,1);
+	display:inline-block;
+	
+	padding: 16px;
+	border-radius: 8px;
+
+	/*border-color: #FFA500;
+	border-width: 1px;
+	border-style: solid;*/
+	
+
+}
+
+#link{
+	cursor: pointer;
+	display:inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: Cabin, sans-serif;
+	font-size: 24px;
+	text-align: center;
+
+
+}
+
+#link:hover{
+	text-decoration: underline;
+}
+
+.reload{
+	cursor: pointer;
+	display:inline-block;
+}
+
+.icon{
+	height: 1em;
+}
+
+
+#prev{
+	display: none;
+}
