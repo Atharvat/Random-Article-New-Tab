@@ -4,7 +4,7 @@ Visit the website here- https://atharvat.github.io/Random-Article-New-Tab/
 
 ![](images/1.png)
 
-You can click on the article name to go to the wikipedia website for the article aor press the next button to generate another article
+You can click on the article name to go to the wikipedia website for the article or press the next button to generate another article
 
 ![](images/2.png)
 
